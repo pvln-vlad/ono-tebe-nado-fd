@@ -26,7 +26,8 @@ blockquote {
 }
 
 a {
-  color: inherit;
+  color: black;
+    text-decoration: none;
 }
 
 img {
@@ -35,4 +36,22 @@ img {
 
 button {
   font: inherit;
+}
+
+.bet-button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.lots__look-more-link {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.lots__card-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
