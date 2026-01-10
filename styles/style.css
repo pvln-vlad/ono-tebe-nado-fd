@@ -14,6 +14,7 @@ a {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    justify-items: center;
     padding-left: 50px;
     padding-right: 50px;
     height: 293px;
@@ -21,11 +22,12 @@ a {
 
 .header__menu {
     font-size: 18px;
+    justify-self: start;
 }
 
 .header__logo {
     display: block;
-    width: 148px;
+    width: 135px;
 }
 
 .header__links-list {
@@ -51,16 +53,17 @@ a {
 }
 
 .address {
-    font-style: normal;
     display: flex;
     flex-direction: column;
-    max-width: 240px;
+    font-style: normal;
     font-size: 18px;
+    line-height: 24.3px;
 }
 
 .header__address {
     align-items: flex-start;
     justify-self: end;
+    max-width: 240px;
 }
 
 .address-item {
@@ -224,11 +227,16 @@ a {
 }
 
 .card__title {
+    display: inline;
+    flex-direction: column;
     color: white;
     text-transform: uppercase;
-    text-decoration: underline;
     font-size: 22px;
     z-index: 2;
+}
+
+.card__title-item {
+    border-bottom: 1px solid white;
 }
 
 .card__text {
@@ -284,7 +292,6 @@ a {
 
 .about__text {
     margin-top: 100px;
-    margin-right: 5px;
     display: flex;
     flex-direction: column;
     gap: 25px;
