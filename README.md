@@ -1,1 +1,1 @@
-https://github.com/pvln-vlad/ono-tebe-nado
+https://github.com/pvln-vlad/ono-tebe-nado-fd
