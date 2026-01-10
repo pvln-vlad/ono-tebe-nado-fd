@@ -10,7 +10,7 @@ a {
     display: block;
 }
 
-.header  {
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -68,9 +68,6 @@ a {
 
 .address-item {
     border-bottom: 1px solid black;
-}
-
-.main {
 }
 
 .cover {
@@ -308,10 +305,6 @@ a {
     align-items: start;
     margin-left: 50px;
 }
-
-,footer__menu {
-
- }
 
  .footer__menu-list {
      display: flex;
