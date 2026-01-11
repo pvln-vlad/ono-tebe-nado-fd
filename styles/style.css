@@ -143,8 +143,10 @@ a {
   color: white;
   font-size: 22px;
   text-transform: uppercase;
-  padding: 12px 32px;
+  padding: 12px 32px 12px 32px;
   border: 1px solid white;
+  background: none;
+  cursor: pointer;
 }
 
 .lots {
@@ -310,13 +312,6 @@ a {
 .footer__social-icon {
   width: 48px;
   height: 48px;
-}
-
-.bet-button {
-  background: none;
-  border: 1px solid white;
-  padding: 12px 32px 12px 32px;
-  cursor: pointer;
 }
 
 .lots__look-more-link {
